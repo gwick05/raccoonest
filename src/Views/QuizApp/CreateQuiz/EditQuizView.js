@@ -103,6 +103,7 @@ function EditQuizView({ quiz, onFinishedEditing, index }) {
             onModifyQuestion={handleModifyQuestion}
             onDeleteQuestion={handleDeleteQuestion}
             onEditQuestion={handleEditQuestion}
+            adding={false}
           />
         )}
       </div>

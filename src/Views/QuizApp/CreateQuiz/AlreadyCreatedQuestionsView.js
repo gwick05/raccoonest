@@ -8,9 +8,9 @@ function AlreadyCreatedQuestionsView({
   onModifyQuestion,
   onDeleteQuestion,
   onEditQuestion,
-  quiz,
+  adding = true,
 }) {
-  const [isBeingAdded, setIsBeingAdded] = useState(true);
+  const [isBeingAdded, setIsBeingAdded] = useState(adding);
 
   return (
     <div>
