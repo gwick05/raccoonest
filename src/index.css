@@ -288,4 +288,35 @@ button:hover {
   width: 50px;
 }
 
+.q:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
 /*QUIZ*/
+
+.complete-quiz-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.complete-quiz-button:hover {
+  background-color: #4caf50; /* Change the hover background color */
+  color: white; /* Change the hover text color */
+}
+
+/* Optional: Add more styles for different states (active, focus, etc.) */
+.complete-quiz-button:active {
+  background-color: #45a049; /* Change the active background color */
+}
+
+.complete-quiz-button:focus {
+  outline: none; /* Remove the default focus outline */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on focus */
+}

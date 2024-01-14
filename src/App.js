@@ -8,7 +8,7 @@ import CityList from "./Views/Places/CityList";
 import CityForm from "./Views/Places/CityForm";
 import Blackboard from "./Views/Blackboard/Blackboard";
 import { useState } from "react";
-import Quiz from "./Views/Quizes/Quiz.js";
+import QuizApp from "./Views/QuizApp/QuizApp.js";
 
 function App() {
   const [currView, setCurrView] = useState("places");
@@ -129,7 +129,7 @@ function App() {
 
       {currView === "blackboard" && <Blackboard />}
 
-      {currView === "quizes" && <Quiz />}
+      {currView === "quizes" && <QuizApp />}
     </>
   );
 }

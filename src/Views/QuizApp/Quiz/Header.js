@@ -1,5 +1,3 @@
-import RaccoonLogo from "../../media/rac.svg";
-
 function Header() {
   return (
     <header className="app-header">

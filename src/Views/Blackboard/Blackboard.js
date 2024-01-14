@@ -18,7 +18,7 @@ export default function Blackboard() {
     <div className="blackboard">
       <div className="board center">
         <ul>
-          {messages.slice(0, 10).map((message) => (
+          {messages.slice(0, 9).map((message) => (
             <Message message={message} key={message.id} />
           ))}
         </ul>
